@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c08e657c.css",
-    "main.js": "/static/js/main.a610779d.js",
+    "main.css": "/static/css/main.969474c2.css",
+    "main.js": "/static/js/main.7e4ee894.js",
     "static/js/787.fa1be493.chunk.js": "/static/js/787.fa1be493.chunk.js",
     "static/media/spaceEarthTemplate.mp4": "/static/media/spaceEarthTemplate.e8ad99d4e34cd0076351.mp4",
     "static/media/aroundTheWorldWithBG.jpg": "/static/media/aroundTheWorldWithBG.b80e8de05e827923fded.jpg",
@@ -13,12 +13,12 @@
     "static/media/stoneHengeWhite.png": "/static/media/stoneHengeWhite.6116356856dcc9b07082.png",
     "static/media/HollywoodBookReviewLogo.png": "/static/media/HollywoodBookReviewLogo.988659b2f88b901a239d.png",
     "index.html": "/index.html",
-    "main.c08e657c.css.map": "/static/css/main.c08e657c.css.map",
-    "main.a610779d.js.map": "/static/js/main.a610779d.js.map",
+    "main.969474c2.css.map": "/static/css/main.969474c2.css.map",
+    "main.7e4ee894.js.map": "/static/js/main.7e4ee894.js.map",
     "787.fa1be493.chunk.js.map": "/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c08e657c.css",
-    "static/js/main.a610779d.js"
+    "static/css/main.969474c2.css",
+    "static/js/main.7e4ee894.js"
   ]
 }

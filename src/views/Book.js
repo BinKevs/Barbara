@@ -1,5 +1,4 @@
-import aroundTheWorld from "../assets/aroundTheWorldWithBG.jpg";
-import aroundTheWorldWithBG2 from "../assets/aroundTheWorldWithBG2.jpg";
+// import aroundTheWorld from "../assets/aroundTheWorldWithBG.jpg";
 
 import Typewriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -32,7 +31,7 @@ function Book() {
             <div>
               <div className="text-2xl my-4">Now Available</div>
               <a
-                href="https://www.amazon.com/MegaQuake-2023-Timelines-Events-Apocalyptic-ebook/dp/B09W1XVVMV/ref=cm_cr_arp_d_product_top?ie=UTF8"
+                href="https://www.amazon.com/Bull-Vaulter-Alena-Isle-Green-ebook/dp/B091THW56C/ref=cm_cr_arp_d_product_top?ie=UTF8"
                 target="_blank"
                 rel="noreferrer"
               >

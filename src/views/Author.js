@@ -1,5 +1,5 @@
-import authorJames from "../assets/authorJames.jpg";
-import authorJames2 from "../assets/authorJames2.jpg";
+// import authorJames from "../assets/authorJames.jpg";
+
 function Author() {
   return (
     <>

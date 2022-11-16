@@ -4,9 +4,7 @@ import Layout from "./views/Layout";
 
 import Author from "./views/Author";
 import Book from "./views/Book";
-import ContactUs from "./views/ContactUs";
 import Reviews from "./views/Reviews";
-import Order from "./views/Order";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { Outlet, Link } from "react-router-dom";
 function App() {
@@ -21,8 +19,7 @@ function App() {
             <Route path="author" element={<Author />} />
             <Route path="book" element={<Book />} />
             <Route path="reviews" element={<Reviews />} />
-            <Route path="order" element={<Order />} />
-            <Route path="contact" element={<ContactUs />} />
+
             {/* </Route> */}
           </Routes>
         </Layout>

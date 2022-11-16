@@ -21,34 +21,12 @@ const NavBar = () => {
             </span>
           </Link>
 
-          <div class="md:hidden">
-            <div
-              id="hamburger"
-              className={hamBurgetState ? "open" : ""}
-              onClick={() => setHamBurgetState(!hamBurgetState)}
-            >
-              <svg width="50" height="50" viewBox="0 0 100 100">
-                <path
-                  class="line line1"
-                  d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
-                />
-                <path class="line line2" d="M 20,50 H 80" />
-                <path
-                  class="line line3"
-                  d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            className="navLink hidden w-full md:flex md:w-auto"
-            id="navbar-default"
-          >
-            <ul className="flex  p-4  space-x-12 mt-0 lg:mr-8 mr-4 text-md font-medium ">
+          <div className="navLink  w-full flex md:w-auto" id="navbar-default">
+            <ul className="flex  p-4 md:space-x-15 space-x-4 mx-auto mt-0 text-md font-medium ">
               <li>
                 <Link
                   to="/"
-                  className="py-2 pr-4 pl-3 rounded md:bg-transparent md:p-0 md:hover:text-[#2A4C9A] "
+                  className="py-2  rounded md:bg-transparent md:p-0 md:hover:text-[#DB723F] "
                   aria-current="page"
                 >
                   Home
@@ -58,7 +36,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="author"
-                  className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
+                  className=" py-2 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#DB723F] md:p-0 "
                 >
                   Author
                 </Link>
@@ -66,7 +44,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="book"
-                  className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
+                  className=" py-2 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#DB723F] md:p-0 "
                 >
                   Book
                 </Link>
@@ -74,7 +52,7 @@ const NavBar = () => {
               <li>
                 <Link
                   to="reviews"
-                  className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
+                  className=" py-2  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#DB723F] md:p-0 "
                 >
                   Reviews
                 </Link>
