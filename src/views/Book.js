@@ -1,6 +1,5 @@
-import aroundTheWorld from "../assets/aroundTheWorldWithBG.jpg";
-import aroundTheWorldWithBG2 from "../assets/aroundTheWorldWithBG2.jpg";
-
+// import aroundTheWorld from "../assets/aroundTheWorldWithBG.jpg";
+import bookCover from "../assets/bookCover.jpg";
 import Typewriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -12,16 +11,7 @@ function Book() {
         <div className="w-[80%] m-auto flex flex-col xl:flex-row xl:space-x-8 py-[40px]">
           <div className="flex">
             <div className="flex flex-col xl:flex-row xl:space-x-8 xl:p-0 p-4 my-auto">
-              <img
-                className="xl:max-w-[300px]"
-                src="https://m.media-amazon.com/images/P/1638710066.01._SCLZZZZZZZ_SX500_.jpg"
-                alt=""
-              />
-              <img
-                className="xl:max-w-[300px]"
-                src="https://m.media-amazon.com/images/I/712AKM0-1uL.jpg"
-                alt=""
-              />
+              <img className="xl:max-w-[500px]" src={bookCover} alt="" />
             </div>
           </div>
           {/* https://youronlinepublicist.com/wp-content/uploads/2018/08/Bull-Vaulter-3D-600x400.jpg */}
@@ -32,7 +22,7 @@ function Book() {
             <div>
               <div className="text-2xl my-4">Now Available</div>
               <a
-                href="https://www.amazon.com/MegaQuake-2023-Timelines-Events-Apocalyptic-ebook/dp/B09W1XVVMV/ref=cm_cr_arp_d_product_top?ie=UTF8"
+                href="https://www.amazon.com/Bull-Vaulter-Alena-Isle-Green-ebook/dp/B091THW56C/ref=cm_cr_arp_d_product_top?ie=UTF8"
                 target="_blank"
                 rel="noreferrer"
               >

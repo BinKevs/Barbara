@@ -6,284 +6,170 @@ function Reviews() {
   const [review, setReview] = useState([
     {
       message:
-        "Fun, witty and creative! What a clever idea for a book. What an awesome teacher!",
-      creator: "Angela V",
+        "What a great time I had reading about the dualistic society where women and men pursue their gifts in life. I loved the journey that the heroine took me, to the island of Keft, and far away lands where the young beautiful bull vaulter grows into a wise woman. This book is a true adventure of the heart and mind with art, passion and culture of ancient Crete. What a great book for my book club.",
+      creator: "CLop",
     },
     {
       message:
-        "Fabulous limerick writing! Anyone can enjoy this lovely written book, giggles galore.",
-      creator: "Meredith Jo",
+        "I love this book! What a great find. Entertaining and filled with historic information I found fascinating. I want to live on the Isle of Green! Tieken wove an interesting story that took me back in time leaving me wanting another book about Alena's life ... Thought provoking with some great food for my erotic imagination. Most definitely one I will recommend my friends read.",
+      creator: "GT",
     },
     {
       message:
-        "The book Around the World in Five Lines takes you on an adventure. I bought this book for my grandchildren. When we read a limerick we google the location to find out more about the place. They love learning about different spots in the world.",
-      creator: "GrannyBeBe",
+        "Ms Tieken tells the story of Alena with vivid descriptions of people and places. I could see the landscapes ,and I felt as if I knew the people. Alena is an amazing young woman who is both brave and wise. I loved the descriptions of ancient Minoan life and the people of the Peloponnesus. Grab this book for a wonderful journey into the past.",
+      creator: "LB A",
     },
     {
       message:
-        "Limerick writing is very precise, and follows regimented discipline. In just five lines, the author has to write a beginning middle and end to to this particular type of poetry. This book takes the reader on a journey not only around the world by naming new places, stating a predicament. and finally. a playful solution all in just fine lines. If you like to read different kinds of poetry, this is a great book.",
-      creator: "Helena Graves",
-    },
-    {
-      message:
-        "Mr. Anstead's Around the World in 5 Lines is a treat for all lovers of the written word. He takes you to many unknown places around the world! It is humor mixed with geography a treat for the entire family!",
-      creator: "Amazon Customer",
-    },
-    {
-      message:
-        "James is a very gifted gentleman who has used limericks to expose his love for language and the world. James has created vivid imagery in five lines. If you love traveling and language, this is a definite purchase.",
-      creator: "Celeste Hill Brockett",
-    },
-    {
-      message:
-        "Around the World in Five Lines......loved it! Very sophisticated, showing a great deal of worldly experiences! The limericks in this book make you chuckle! Great read! Dawn",
-      creator: "Dawn",
-    },
-    {
-      message:
-        "Reviewed in the United States on November 24, 2018 These limericks made me want to find out exactly where the cities and towns were located. It was alot of fun to share with family and friends.",
-      creator: "Cullen",
-    },
-    {
-      message:
-        "A really fun gift I received this year the Adventures and the places you go in this book I love reading them to my kids",
-      creator: "january",
-    },
-    {
-      message:
-        "Witty and fun. Must read. These five lines will take you to the corners of the world with excitement and comedy.",
-      creator: "josh jones",
-    },
-    {
-      message: "Very enjoyable read. Funny and smart!",
-      creator: "Roger franxman",
-    },
-    {
-      message: "Eclectic samples of life in five lines.",
-      creator: "Timothy Mercer",
+        "I am eeeking out the last few pages, although I really have to fight the urge to stay home and just keep turning the pages. This historical insight to a world where peace reigned, and the natural world and ancient healing arts were revered, was like a well needed passage into a world that my heart yearns for. Very engaging, Ms Tieken tells the story so delightfully, as a young woman finds herself in several worlds at once, and she models dignity, courage, and Great heart and Wisdom. I am just thrilled to have found this gem of a book..oh, and did I mention there are sex scenes, too?",
+      creator: "cb1love",
     },
   ]);
   return (
     <>
-      <div className="h-full bg-black relative flex md:mt-[88px] mt-[82px] ">
+      <div className="h-full bg-[#FEFCF0] relative flex md:mt-[88px] mt-[82px] ">
         <div className="m-auto w-[80%] text-white">
           <div>
-            <div className="text-7xl font-bold py-6 uppercase text-[#13699B]">
-              Kirkus
-            </div>
-            <div className="text-gray-400 text-md ">
-              <div>Release Date: June 28, 2018</div>
-              <div>ISBN: 978-1-4809-5936-1</div>
-              <div>Page Count: 46</div>
-              <div>Publisher: Dorrance Publishing Co.</div>
-              <div>Review Posted Online: Dec. 18, 2018</div>
-            </div>
-            <div className="text-gray-300 text-xl my-4 ">
-              {" "}
-              " A book of poetry that works a classic form for all it’s worth."
-            </div>
-            <div className="text-gray-300 text-lg border-l-4 pl-4 border-[#13699B] ml-8">
-              “Do not try to do everything. Do one thing well.” So said the late
-              Steve Jobs, giving advice that debut poet Anstead seems to have
-              taken quite seriously. The latter’s new collection does one thing
-              and one thing only: the limerick. This, of course, is the most
-              homespun of poetic forms, and the best-known example has arguably
-              the most famous first line in all literature: “There once was a
-              man from Nantucket…” This chestnut isn’t as old as one might
-              think; it appeared in the Princeton Tiger in 1902, attributed to
-              one Dayton Voorhees. Not to be outdone, Anstead offers roughly 200
-              more here. Like Voorhees’ original, each opens in a particular
-              locale (hence the volume’s title). For example: “An eccentric
-              young man from Toledo / Adopted “total self-expression” as his
-              credo. / So every day, exactly at noon, / He would cause his
-              neighbors to swoon / When he circled the block in his Speedo.”{" "}
-              <br /> <br /> If you’re not a fan of the domestic setting, the
-              poet is also quite happy to take you abroad: “An inventive
-              short-order cook from Swaziland / Thought the soup du jour was
-              rather bland. / But in his zeal to improve the corn chowder, / He
-              hastily added so much curry powder, / That one taste was all
-              anyone could stand.” Anstead can go on—and does—and it’s a model
-              that may feel repetitive. However, this compilation offers more
-              smiles than one might anticipate. The only problem is that the
-              author has a bad habit of trying to cram too many words into a
-              line. The third and fourth lines of a limerick, combined,
-              traditionally skip by in 12 syllables, but Anstead’s too often
-              push past 20. (Take the Swaziland entry above as just one example
-              of this.) Fortunately, at the end of the day, this tic doesn’t
-              ruin the fun. Anstead packs lots of joy into tiny packages in this
-              slim but playful collection.
-            </div>
-            <div className="text-lg my-4">
-              Source :{" "}
-              <a
-                className=" cursor-pointer text-blue-600 font-bold"
-                target="_Blank"
-                href="https://www.kirkusreviews.com/book-reviews/james-b-anstead/around-the-world-in-five-lines/"
-              >
-                www.kirkusreviews.com
-              </a>
-            </div>
-          </div>
-          <div>
-            <div className="text-7xl font-bold text-end py-6 uppercase text-[#54447F]">
+            <div className="text-7xl py-6 uppercase text-[#DB723F]">
               Pacific Book Review
             </div>
-            <div className="text-gray-400 text-md text-end">
-              <div>Release Date: June 28, 2018</div>
-              <div>ISBN: 978-1647537241</div>
-              <div>Page Count: 48</div>
-              <div>Publisher: URLink Print & Media, LLC</div>
-              <div> Reviewed by: Jack Chambers</div>
-              <div>Genre: Literature & Fiction / Poetry</div>
-              <div>Review Posted Online: Dec. 18, 2018</div>
+            <div className="text-black font-light text-lg ml-8">
+              Set in 2100 B.C.E, Bull Vaulter: Alena of the Isle of Green is one
+              of those uncommon pieces of fiction literature which features
+              convincing insights built on meticulous research – while still
+              providing readers a rich and riveting narrative. Alena, the main
+              character in the story, is a famous and well-experienced bull
+              vaulter of the Keft, an Island across the Aegean Sea. As was the
+              custom of the island, every bull vaulter would serve the Goddess
+              and participate in the bullfighting ceremony for three years and
+              later allowed to choose a life partner.
+              <br />
+              <br />
+              Alena’s love interest was Dorion, the most renowned bull dancer on
+              the island. Their plans drastically change when the ruthless
+              warrior horsemen living on the plains stage an attack on the
+              visiting Isle of Greens bull dancers as they performed on the day
+              of the Harvest Festival, that many had gathered to watch
+              throughout the peninsula’s coastal villages. Among the injured are
+              Dorion and Alena, who are separately carried off as hostages.
+              <br />
+              <br />
+              The incidents that shortly follow the attack, leave Alena
+              traumatized, in pain, and unconscious for many days. Jahal, one of
+              the warrior horsemen, and heir to the chieftainship of the Kurgan
+              tribe takes Alena to the temple of Peloponnesus, where she is
+              attended to by Myra and Aesclevius, two life partners and
+              priestess healers of the temple.
+              <br />
+              <br />
+              The two believe that Alena has a special calling and both
+              encourage her to follow the path laid out to her by the Goddess.
+              While there, Alena meets Jahal and is instantly enamored by him.
+              Could Alena learn to turn her focus to her inner calling and
+              forget her interest and love for bull vaulting? Could her will now
+              be intertwined to work as one with the will of the gentle healing
+              Goddess? Was her heart willing to forget her former flame, Dorion,
+              and let Jahal in, who also had deep secrets of his own?
+              <br />
+              <br />
+              Author Barbara Tieken tells the story in such a delightful manner,
+              as young Alena finds herself part of different worlds at once. The
+              author has thrust us into a natural world where ancient healing
+              arts were treasured. I loved the descriptions used in the book
+              that vividly curve out ancient Minoan life and the way of life of
+              the people of Peloponnesus.
+              <br />
+              <br />
+              This is a very well-crafted, enthralling story, and a real
+              page-turner. It is nearly impossible for readers not to feel they
+              are part of the story. Alena is easy to like and understand,
+              largely because of her warm-heartedness and willingness to do
+              good. Jahal is also an interesting character and readers will
+              enjoy reading how he evolves from a selfish and conceited man to a
+              caring and tender man.
+              <br />
+              <br />
+              Finishing this book was bittersweet. I couldn’t wait to see how
+              Alena and Jahal’s lives would unfold and at the same time, I did
+              not want it to end. The book, however, contains adult content and
+              some scenes of violence and therefore might be more suitable for a
+              mature audience. I heartily recommend Bull Vaulter: Alena of the
+              Isle of Green to fans of historical fiction who love elements of
+              mythology and a gripping love story at the center.
             </div>
-            <div className="text-gray-300 text-xl my-4 text-end">
-              {" "}
-              " A One of life’s greatest adventures which people strive to have
-              in their lives at one point or another is the ability to travel."
-            </div>
-            <div className="text-gray-300 text-lg text-right border-r-4 pr-4 border-[#54447F] mr-8">
-              Growing up in a specific country and learning about the world
-              around us, many people have the desire, and for some the need, to
-              travel and visit these faraway lands which make up our planet.
-              Whether it is to immerse ourselves in a different culture, see
-              historical landscapes, or meet new friends, travel has a way of
-              giving us a well-rounded picture of what makes up our planet. As
-              Ralph Waldo Emerson once said, “Though we travel the world over to
-              find the beautiful, we must carry it with us or we find it not.”
-              <br /> <br />
-              In author James B. Anstead’s Around the World in Five Lines, the
-              author takes readers on a journey around the globe and into
-              various cultures through hilarious and fun limericks. Using the
-              style of poetry to capture unique moments from his travels,
-              readers are treated to a beautiful blend of different cultures and
-              humorous commentary through poetic writing on the ways in which we
-              interact with the world around us as we travel across new
-              locations and meet new people
-              <br /> <br />
-              The author did such a great job of crafting fun, creative, and
-              lighthearted limericks that readers can instantly connect to.
-              Aside from the poetic nature of the author’s writing, one thing
-              that stood out was the travel aspect of the limerick’s subjects,
-              as the work allowed readers not only to learn of the author’s
-              adventures, but to gain a natural curiosity about the areas the
-              author mentions and explored throughout these limericks. The
-              writing style was precise and captured the technical aspects of
-              writing limericks, and yet the writing itself felt natural and
-              upbeat, allowing the writing to flow smoothly without the
-              technicality of it all to seem too rigid.
-              <br /> <br />
-              This is the perfect read for those who enjoy poetry, in particular
-              poetry that utilizes the limerick style of writing, and those who
-              enjoy travel and all which it entails. As a fan of poetry and an
-              aspiring traveler, this collection spoke to me as it had the heart
-              and fun that an adventure around the world is supposed to have,
-              while the style of writing captured the fast-pace and hustle that
-              can come from traveling on a timed schedule Fast-paced, memorable,
-              and entertaining, author James B. Anstead’s Around the World in
-              Five Lines is a must-read collection of limericks. A perfect
-              balance between the appreciation and love that goes into world
-              travel and the artistry and humor of limericks, this collection
-              will warm the reader’s hearts and bring a lighthearted nature to
-              the business of travel that will heal the stresses that many feel
-              whilst in the throes of travel as a whole.
-            </div>
-            <div className="text-lg my-4 text-end">
+            <div className="text-lg text-black my-4">
               Source :{" "}
               <a
                 className=" cursor-pointer text-blue-600 font-bold"
                 target="_Blank"
-                href="https://www.pacificbookreview.com/around-the-world-in-five-lines/"
+                href="https://www.pacificbookreview.com/bull-vaulter-alena-of-the-isle-of-green/"
+                rel="noreferrer"
               >
                 www.pacificbookreview.com
               </a>
             </div>
           </div>
           <div>
-            <div className="md:text-7xl text-4xl font-bold py-6 uppercase text-[#FFFE98]">
-              Hollywood Book Reviews
-            </div>
-            <div className="text-gray-400 text-md ">
-              <div>Release Date: June 28, 2018</div>
-              <div>ISBN: 978-1-64753-717-3</div>
-              <div>Page Count: 46</div>
-              <div>Publisher: URLink Print & Media, LLC</div>
-              <div>Reviewed by: Allison Walker</div>
-            </div>
-            <div className="text-gray-300 text-xl my-4 ">
-              {" "}
-              "Limericks are playful and humorous rhyming poems that follow a
-              strict rhyming structure and cadence."
+            <div className="text-7xl  py-6 uppercase text-[#DB723F]">
+              The US Review of Books
             </div>
 
-            <div className="text-gray-300 text-lg border-l-4 pl-4 border-[#FFFE98] ml-8">
-              Limericks have long held a spot in the hearts of children and
-              adults alike for their playful themes and strict structure, which
-              makes them all the more joyful to read, and poet James B.
-              Anstead’s collection is no exception. Anstead’s collection of
-              limericks, titled Around the World in Five Lines, is a fun and
-              funny assembly. The title of the collection is called “Around the
-              World in Five Lines” because each limerick is about a person from
-              a different city doing something silly or being caught in an
-              outlandish predicament.
-              <br /> <br />
-              Limericks are playful and humorous rhyming poems that follow a
-              strict rhyming structure and cadence. The first, second and fifth
-              lines must have seven to ten syllables, share the same verbal
-              rhythm, and must rhyme. Likewise, the third and fourth lines must
-              have five to seven syllables, and must have the same rhythm and
-              rhyme. Creating a poem which follows these rules is difficult,
-              making a poem that follows these rules and is genuinely funny is
-              even harder still. Anstead nails it. Clever and funny, Around the
-              World in Five Lines is an absolute delight. While the collection
-              may not be altogether geographically accurate, it’s not altogether
-              inaccurate, either. Who’s to say that certain aggressive soccer
-              players from Mauritius aren’t accused of being too vicious and,
-              concerning their style of play, wouldn’t claim those rumors were
-              downright pernicious.
-              <br /> <br />
-              The purpose of the limerick is to be whimsical and funny and at
-              this Anstead succeeds page after page. Some of his limericks are
-              downright laugh-out-loud funny; for example, “An extremely vain
-              woman from Laos/ Was quite proud of her polka-dot blouse./ Her
-              friend said, ‘My thoughts with you I’ll share./ If that were the
-              only thing I had to wear,/ I wouldn’t step out of the house.’”
-              Anstead knows how to use a clever one-liner to crack a punchline
-              and he does so again and again. Some of the vocabulary must have
-              been a challenge to include or find a rhyme for; such as, “An
-              aspiring young thespian from Belfast/ In his first role was sorely
-              miscast./ He was required to play a tough Brooklyn rogue./
-              However, after hearing his thick Irish brogue,/ The audience was
-              left utterly aghast.”
-              <br /> <br />
-              There is no age at which you cannot enjoy a limerick. Around the
-              World in Five Lines is a joy to indulge oneself in and, as such,
-              it demands to be shared. It’s impossible to imagine any reader who
-              wouldn’t find a smile on their face upon reading Anstead’s Around
-              the World in Five Lines.
+            <div className="text-black text-lg mr-8">
+              "…it was revealed to you in your own serpent healing… ‘A life well
+              lived is a death well deserved.’"
+              <br />
+              <br />
+              One horrible night in the ancient Peloponnesus, members of an
+              invading tribe double rape a fourteen-year-old girl. The attack
+              leaves her injured and pregnant. But Alena is tough beyond her
+              years. She is a bull vaulter, rigorously trained to execute
+              acrobatic feats on the back of a galloping bull—her matriarchal
+              society's symbol of strength and rebirth. Alena's life was about
+              to change, anyway. This performance was her last before, like
+              other bull vaulters, she gave up bull vaulting to marry. Now,
+              though, she is the patient of a married pair of healers who wish
+              to teach her their art. After a difficult birth nearly kills her,
+              she can fully appreciate their skills. Her physical healing
+              inspires her to help others who suffer. Gradually, the affections
+              of her mending heart likewise turn to the least likely and, many
+              might say, the least worthy object.
+              <br />
+              <br />
+              Matriarchal societies of the ancient world are not frequently the
+              subjects of historical fiction. Still rarer is the juxtaposition
+              of a society of strong, capable women with one of initially
+              domineering men, some of whom eventually grow to respect the
+              self-determined women they encounter. Tieken here skillfully
+              presents two such contrasting cultures. Kurgan women, from what is
+              today Ukraine, are valued far less than horses. Thus, the equality
+              of men and women that he discovers among Alena's people astonishes
+              young Kurgan warlord Jahal, who nonetheless embraces these new
+              ideas about the opposite sex. Jahal undergoes a corresponding
+              change of character wherein he softens without becoming weak. This
+              book will likely prove an engaging read for those interested in
+              the spirituality of matriarchal societies and those who are
+              themselves of a spontaneous bent or who admire spontaneity in
+              literary characters. The vivid descriptions of scenery, festivals,
+              and food might even spur some to travel to Greece.
             </div>
-            <div className="text-lg my-4">
+            <div className="text-lg text-black my-4">
               Source :{" "}
               <a
                 className=" cursor-pointer text-blue-600 font-bold"
                 target="_Blank"
-                href="https://www.hollywoodbookreviews.com/around-the-world-in-five-lines/"
+                href="https://www.pacificbookreview.com/around-the-world-in-five-lines/"
+                rel="noreferrer"
               >
-                www.hollywoodbookreviews.com
+                www.pacificbookreview.com
               </a>
             </div>
           </div>
           <div>
-            <div className="text-7xl font-bold py-6 text-white text-right">
-              Amazon
-            </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
+            <div className="text-7xl py-6 text-black ">Amazon</div>
+            <div className="grid grid-cols-1 gap-6">
               {review.map((item, index) => {
                 return (
-                  <div
-                    className="border-r-2 border-b-2 rounded-lg p-6 italic "
-                    key={index}
-                  >
+                  <div className=" p-6 italic " key={index}>
                     <div className="flex">
                       {" "}
                       <IconContext.Provider
@@ -313,8 +199,8 @@ function Reviews() {
                       </IconContext.Provider>
                     </div>
 
-                    <div className="text-gray-300 ">"{item.message}"</div>
-                    <div className="font-semibold">
+                    <div className="text-black">"{item.message}"</div>
+                    <div className="font-semibold text-black">
                       -{item.creator}{" "}
                       <span className="text-[#FF9900]">Amazon Reviews</span>{" "}
                     </div>
