@@ -1,5 +1,6 @@
 // import HollywoodBookReviewLogo from "../assets/HollywoodBookReviewLogo.png";
 // import authorJames from "../assets/authorJamesRemoveBg.png";
+import bullVauterImage from "../assets/bullVauterImage.jpg";
 import { Outlet, Link } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { AiOutlineRight } from "react-icons/ai";
@@ -45,7 +46,9 @@ function Landing() {
           </div>
         </div>
       </div>
-
+      <div>
+        <img className="" src={bullVauterImage} alt="" />
+      </div>
       <div className=" bg-black">
         <div className="text-white w-[95%] mx-auto py-20">
           <div className="lg:text-7xl md:text-5xl text-4xl flex  justify-between pb-4 md:w-[80%] mx-auto">

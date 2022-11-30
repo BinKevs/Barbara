@@ -1,5 +1,5 @@
 // import aroundTheWorld from "../assets/aroundTheWorldWithBG.jpg";
-
+import bookCover from "../assets/bookCover.jpg";
 import Typewriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -11,16 +11,7 @@ function Book() {
         <div className="w-[80%] m-auto flex flex-col xl:flex-row xl:space-x-8 py-[40px]">
           <div className="flex">
             <div className="flex flex-col xl:flex-row xl:space-x-8 xl:p-0 p-4 my-auto">
-              <img
-                className="xl:max-w-[300px]"
-                src="https://m.media-amazon.com/images/P/1638710066.01._SCLZZZZZZZ_SX500_.jpg"
-                alt=""
-              />
-              <img
-                className="xl:max-w-[300px]"
-                src="https://m.media-amazon.com/images/I/712AKM0-1uL.jpg"
-                alt=""
-              />
+              <img className="xl:max-w-[500px]" src={bookCover} alt="" />
             </div>
           </div>
           {/* https://youronlinepublicist.com/wp-content/uploads/2018/08/Bull-Vaulter-3D-600x400.jpg */}
