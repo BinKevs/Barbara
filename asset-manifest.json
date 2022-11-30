@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Barbara/static/css/main.c1586508.css",
+    "main.js": "/Barbara/static/js/main.e6721d02.js",
+    "static/js/787.fa1be493.chunk.js": "/Barbara/static/js/787.fa1be493.chunk.js",
+    "static/media/bullVauterImage.jpg": "/Barbara/static/media/bullVauterImage.64c6a7cb08c36446d8bb.jpg",
+    "static/media/bookCover.jpg": "/Barbara/static/media/bookCover.639dcd957a9f7292a799.jpg",
+    "index.html": "/Barbara/index.html",
+    "main.c1586508.css.map": "/Barbara/static/css/main.c1586508.css.map",
+    "main.e6721d02.js.map": "/Barbara/static/js/main.e6721d02.js.map",
+    "787.fa1be493.chunk.js.map": "/Barbara/static/js/787.fa1be493.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1586508.css",
+    "static/js/main.e6721d02.js"
+  ]
+}
